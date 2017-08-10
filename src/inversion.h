@@ -1138,7 +1138,7 @@ template < class Vec > bool Inversion< Vec>::oneStep() {
 //                solveCGLSCDWW(*J_, forward_->constraints(), dataWeight_, deltaDataIter_, deltaModelIter_, constraintsWeight_,
 //                                modelWeight_, lambda_, deltaModel0, maxCGLSIter_, dosave_);
         } else {
-            if (verbose_) std::cout << "solve CGLSCDWWtrans with lambda = " << lambda_ << std::endl;
+            if (verbose_) std::cout << "solve CGLSCDWWhtrans with lambda = " << lambda_ << std::endl;
 //             solveCGLSCDWWtrans(*J_, forward_->constraints(), dataWeight_, deltaDataIter_, deltaModelIter_, constraintsWeight_,
 //                                  modelWeight_, tM_->deriv(model_), tD_->deriv(response_),
 //                                lambda_, deltaModel0, maxCGLSIter_, verbose_);
